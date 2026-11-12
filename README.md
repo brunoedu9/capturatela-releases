@@ -165,8 +165,6 @@ Não é preciso instalar mais nada nem ter permissão de administrador.
 
 ## 🔤 Texto da imagem, do jeito certo
 
-<img src="docs/texto.png" alt="Janela de texto extraído" width="520" align="right"/>
-
 O texto reconhecido abre numa janela com:
 
 - a **imagem de onde ele foi lido**, para conferir
@@ -176,7 +174,9 @@ O texto reconhecido abre numa janela com:
 Funciona offline, usando o reconhecimento de texto do próprio Windows,
 no idioma configurado no seu computador.
 
-<br clear="right"/>
+<div align="center">
+  <img src="docs/texto.png" alt="Janela de texto extraído" width="620"/>
+</div>
 
 ---
 
