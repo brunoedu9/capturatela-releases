@@ -100,15 +100,28 @@ Documentar um processo, explicar um erro para o suporte ou treinar alguém — s
 1. Clique em **Gravar passos** (na janela principal ou no ícone perto do relógio).
 2. Faça a tarefa normalmente. **Cada clique vira um passo**, com o print da janela, o local do clique
    destacado e uma descrição automática, como *Clique no botão “Salvar” na janela “Bloco de Notas”*.
-3. Clique em **Concluir** e revise: título, introdução, texto e observação de cada passo, ordem,
-   imagens (dá para anotar no editor) e **Mascarar dados em todos** — CPF, CNPJ, e-mail, telefone e cartão.
+3. Clique em **Concluir** (ou `Ctrl + Shift + F10`) e revise: título, introdução, texto e observação de cada passo,
+   ordem (é só **arrastar**), imagens (dá para anotar no editor) e **Mascarar dados em todos** —
+   CPF, CNPJ, e-mail, telefone e cartão.
 4. Clique em **Gerar PDF**.
+
+**Para facilitar:**
+
+- Durante a gravação, a barra confirma cada passo, tem **↶ desfazer último passo** e **Comentário**
+  para escrever uma observação na hora. `Ctrl + Shift + F9` pausa.
+- Na revisão, **+ Seção** cria títulos como *“Parte 2 — Configuração”* e **Zoom no clique**
+  deixa o botão clicado em destaque.
+- **Rascunho automático:** se o app fechar antes do PDF, ele oferece continuar de onde parou.
 
 > 🔒 **O que você digita nunca é gravado.** O passo diz apenas “Digite o texto” (ou “Digite a senha”).
 > A barra de gravação também não aparece nos prints.
 
 <div align="center">
-  <img src="docs/procedimento-pdf.png" alt="Exemplo de PDF gerado pelo gravador de passos" width="520"/>
+  <img src="docs/revisao-passos.png" alt="Revisão do procedimento antes do PDF" width="780"/>
+  <br/>
+  <sub>Revisão antes do PDF: arraste para reordenar, seções, zoom no clique</sub>
+  <br/><br/>
+  <img src="docs/procedimento-pdf.png" alt="Exemplo de PDF gerado pelo gravador de passos" width="480"/>
   <br/>
   <sub>Primeira página de um procedimento gerado automaticamente</sub>
 </div>
