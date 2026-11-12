@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="docs/logo.png" alt="CapturaTela" width="110"/>
 
@@ -6,8 +6,9 @@
 
 **Prints rápidos, anotações e dados sensíveis escondidos — em segundos.**
 
-Capture qualquer parte da tela, marque o que importa, esconda CPF, e-mail e telefone
-e copie o texto da imagem. Tudo no seu computador, sem internet.
+Capture qualquer parte da tela, marque o que importa, esconda CPF, e-mail e telefone,
+copie o texto da imagem e **transforme uma tarefa num procedimento em PDF**.
+Tudo no seu computador, sem internet.
 
 [![Baixar o CapturaTela](https://img.shields.io/badge/%E2%AC%87%EF%B8%8F%20Baixar%20para%20Windows-Vers%C3%A3o%20mais%20recente-2563EB?style=for-the-badge)](https://github.com/brunoedu9/capturatela-releases/releases/latest)
 
@@ -73,12 +74,43 @@ numa pasta e reencontre suas capturas no **histórico**.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🧭 Novo: grave um passo a passo em PDF
+Clique em **Gravar passos** e faça a tarefa normalmente: cada clique vira um passo com print
+e descrição automática. Revise, esconda os dados sensíveis e **gere um PDF** pronto para enviar.
+
+</td>
+</tr>
 </table>
 
 <div align="center">
   <img src="docs/editor.png" alt="Editor do CapturaTela" width="820"/>
   <br/>
   <sub>O editor: desenhe, destaque, esconda informações, recorte e copie.</sub>
+</div>
+
+---
+
+## 🧭 Gravador de passos
+
+Documentar um processo, explicar um erro para o suporte ou treinar alguém — sem montar prints na mão.
+
+1. Clique em **Gravar passos** (na janela principal ou no ícone perto do relógio).
+2. Faça a tarefa normalmente. **Cada clique vira um passo**, com o print da janela, o local do clique
+   destacado e uma descrição automática, como *Clique no botão “Salvar” na janela “Bloco de Notas”*.
+3. Clique em **Concluir** e revise: título, introdução, texto e observação de cada passo, ordem,
+   imagens (dá para anotar no editor) e **Mascarar dados em todos** — CPF, CNPJ, e-mail, telefone e cartão.
+4. Clique em **Gerar PDF**.
+
+> 🔒 **O que você digita nunca é gravado.** O passo diz apenas “Digite o texto” (ou “Digite a senha”).
+> A barra de gravação também não aparece nos prints.
+
+<div align="center">
+  <img src="docs/procedimento-pdf.png" alt="Exemplo de PDF gerado pelo gravador de passos" width="520"/>
+  <br/>
+  <sub>Primeira página de um procedimento gerado automaticamente</sub>
 </div>
 
 ---
@@ -122,6 +154,7 @@ Não é preciso instalar mais nada nem ter permissão de administrador.
 | `Esc` | Cancelar |
 | `Ctrl + Z` / `Ctrl + Y` | Desfazer / refazer no editor |
 | `Ctrl + C` / `Ctrl + S` | Copiar / salvar no editor |
+| **Gravar passos** | Janela principal ou ícone perto do relógio |
 
 <details>
 <summary><b>Ver todos os atalhos</b></summary>
@@ -187,6 +220,14 @@ no idioma configurado no seu computador.
 
 Não. Captura, edição e leitura de texto acontecem no seu computador.
 A única conexão é a verificação de novas versões aqui no GitHub.
+</details>
+
+<details>
+<summary><b>O gravador de passos registra o que eu digito?</b></summary>
+
+Não. Ele registra cliques e teclas como Enter, Esc ou atalhos (Ctrl + S, por exemplo).
+Quando você digita, o passo diz apenas “Digite o texto” — o conteúdo nunca é gravado.
+Em campos de senha, o passo diz “Digite a senha”.
 </details>
 
 <details>
