@@ -97,9 +97,12 @@ e descrição automática. Revise, esconda os dados sensíveis e **gere um PDF**
 
 Documentar um processo, explicar um erro para o suporte ou treinar alguém — sem montar prints na mão.
 
-1. Clique em **Gravar passos** (na janela principal ou no ícone perto do relógio).
+1. Clique em **Gravar passos** (na janela principal, no ícone perto do relógio ou com `Ctrl + Shift + F8`).
+   Uma contagem de 3 segundos dá tempo de preparar a tela.
 2. Faça a tarefa normalmente. **Cada clique vira um passo**, com o print da janela, o local do clique
    destacado e uma descrição automática, como *Clique no botão “Salvar” na janela “Bloco de Notas”*.
+   Menus aparecem com o caminho completo (*Clique em “Arquivo › Salvar como…”*) e **arrastar** vira
+   um passo com seta (*Arraste “Cartão A” até “Concluído”*).
 3. Clique em **Concluir** (ou `Ctrl + Shift + F10`) e revise: título, introdução, texto e observação de cada passo,
    ordem (é só **arrastar**), imagens (dá para anotar no editor) e **Mascarar dados em todos** —
    CPF, CNPJ, e-mail, telefone e cartão.
@@ -109,12 +112,17 @@ Documentar um processo, explicar um erro para o suporte ou treinar alguém — s
 
 - Durante a gravação, a barra confirma cada passo, tem **↶ desfazer último passo** e **Comentário**
   para escrever uma observação na hora. `Ctrl + Shift + F9` pausa.
+- A barra **encolhe para uma pílula discreta** quando você não está usando — passe o mouse para ver os botões.
+- Cliques que não fazem nada (repetidos no mesmo lugar, em área vazia da área de trabalho ou só para trazer
+  uma janela para frente) **são ignorados**, e o documento fica mais limpo.
+- No **⚙** você pode ligar **Registrar rolagem da página** e **Registrar o que eu digitar**.
 - Na revisão, **+ Seção** cria títulos como *“Parte 2 — Configuração”* e **Zoom no clique**
   deixa o botão clicado em destaque.
 - **Rascunho automático:** se o app fechar antes do PDF, ele oferece continuar de onde parou.
 
-> 🔒 **O que você digita nunca é gravado.** O passo diz apenas “Digite o texto” (ou “Digite a senha”).
-> A barra de gravação também não aparece nos prints.
+> 🔒 **Por padrão, o que você digita não é gravado.** O passo diz apenas “Digite o texto no campo …”.
+> Só se você ligar **Registrar o que eu digitar** o passo mostra o valor (*Preencha o campo “Nome” com “Maria”*).
+> **Senhas nunca são lidas**, nem com a opção ligada. A barra de gravação também não aparece nos prints.
 
 <div align="center">
   <img src="docs/revisao-passos.png" alt="Revisão do procedimento antes do PDF" width="780"/>
@@ -167,7 +175,7 @@ Não é preciso instalar mais nada nem ter permissão de administrador.
 | `Esc` | Cancelar |
 | `Ctrl + Z` / `Ctrl + Y` | Desfazer / refazer no editor |
 | `Ctrl + C` / `Ctrl + S` | Copiar / salvar no editor |
-| **Gravar passos** | Janela principal ou ícone perto do relógio |
+| `Ctrl + Shift + F8` | Começar a gravar passos |
 
 <details>
 <summary><b>Ver todos os atalhos</b></summary>
@@ -238,9 +246,10 @@ A única conexão é a verificação de novas versões aqui no GitHub.
 <details>
 <summary><b>O gravador de passos registra o que eu digito?</b></summary>
 
-Não. Ele registra cliques e teclas como Enter, Esc ou atalhos (Ctrl + S, por exemplo).
-Quando você digita, o passo diz apenas “Digite o texto” — o conteúdo nunca é gravado.
-Em campos de senha, o passo diz “Digite a senha”.
+Não, a menos que você peça. Ele registra cliques e teclas como Enter, Esc ou atalhos (Ctrl + S, por exemplo).
+Quando você digita, o passo diz apenas “Digite o texto no campo …” — o conteúdo não é gravado.
+Se quiser que o documento mostre o valor preenchido, ligue **Registrar o que eu digitar** no ⚙ da barra.
+Em campos de senha, o passo sempre diz só “Digite a senha”.
 </details>
 
 <details>
